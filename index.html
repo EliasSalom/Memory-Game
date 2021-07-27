@@ -6,14 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div>
-        <h1>Task > Memory Game</h1>
+    <div class="div1">
+        <h1>Task Memory Game</h1>
         <p>
             hi to every one and thank to you for this chanse, 
             this is a memory game card
         </p>
+        <form onsubmit="myform()" action="/game.html">
+            <label for="Name">Name</label>
+            <input type="text" id="name">
+            <label for="Level">Level</label>
+            <select name="" id="level">
+                <option value="Easy">Easy</option>
+                <option value="Normal">Normal</option>
+                <option value="Hard">Hard</option>
+            </select>
+            <label for=""></label>
+            
+            <input type="submit" value="Start Game">
+        </form>
     </div>
+    <div class="div2">
+        <!-- <img src="/images/background/shutterstock_224702980-scaled-1-2048x1877.jpg" alt="" srcset=""> -->
+    </div>
+    <script src="/js/index.js"></script>
 </body>
 </html>

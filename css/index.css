@@ -1,6 +1,17 @@
 body{
     display: flex;
     align-items: center;
-    text-align: center;
+    /* text-align: center; */
     margin: 2% 10%;
+    font-family: 'Indie Flower', cursive;
+}
+.div1{
+    width:50%;
+}
+.div2{
+    width:50%;
+    background-image: url("/images/background/shutterstock_224702980-scaled-1-2048x1877.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
